@@ -1,0 +1,30 @@
+pan:1: assertion violated  !( !( !(win))) (at depth 982)
+pan: wrote maze.pml.trail
+
+(Spin Version 6.5.1 -- 31 July 2020)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (never_win)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 476 byte, depth reached 982, errors: 1
+      582 states, stored
+        7 states, matched
+      589 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.275	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.482	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+   10.681	memory used for DFS stack (-m200000)
+  139.072	total actual memory usage
+
+
+
+pan: elapsed time 0.004 seconds

@@ -1,0 +1,9 @@
+never never_win {    /* !([] (! (win))) */
+T0_init:
+	do
+	:: atomic { (! ((! (win)))) -> assert(!(! ((! (win))))) }
+	:: (1) -> goto T0_init
+	od;
+accept_all:
+	skip
+}
